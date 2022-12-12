@@ -10,4 +10,4 @@ def value1(ans) :
         f.write(soup.select('span.price_num__S2p_v')[i].text + '\n')
     f.close()
 
-value1('귤')
+value1('사과')
